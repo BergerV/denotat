@@ -1,0 +1,18 @@
+<tr>
+    <td>Язык оригинала:</td>
+    <td>
+        <select name="langin" id="langin" cols="20" style="width:100%">
+        {% for lang in languages %}
+            <option value="{{ lang.id }}">{{ lang.name }}</option>
+        {% endfor %}
+        </select>
+    </td>
+    <td>Язык перевода:</td>
+    <td>
+        <select name="langout" id="langout" cols="20" style="width:100%">
+        {% for lang in languages %}
+            <option value="{{ lang.id }}">{{ lang.name }}</option>
+        {% endfor %}
+        </select>
+    </td>
+</tr>

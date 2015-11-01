@@ -1,0 +1,174 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+from django.conf import settings
+settings.configure(
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+            'NAME': 'denotat',                      # Or path to database file if using sqlite3.
+            'USER': 'postgres',                      # Not used with sqlite3.
+            'PASSWORD': 'qWeR56111',                  # Not used with sqlite3.
+            'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
+            'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+        }
+    },
+    # этот префикс будет добавляться к именам таблиц вместо имени приложения
+    # его нужно указывать только при использовании в скрипте. При использовании в
+    # Django этот параметр лучше убрать.
+    STANDALONE_APP_NAME='prefix'
+)
+from django.db import models
+
+class StandAloneMetaclass(models.base.ModelBase):
+    """Метакласс, который задает app_label моделям используя
+    значение из STANDALONE_APP_NAME"""
+    def __new__(cls, name, bases, attrs):
+        app_name = settings.STANDALONE_APP_NAME or None
+        if app_name:
+            if 'Meta' in attrs:
+                if not hasattr(attrs['Meta'], 'app_label'):
+                    # устанавливаем app_label только если он уже не указан в самой модели
+                    setattr(attrs['Meta'], 'app_label', app_name)
+        return super(StandAloneMetaclass, cls).__new__(cls, name, bases, attrs)
+
+ORIENTATION_CHOICES = (
+    ('10', '<--'),
+    ('01', '-->'),
+    ('11', '<->'),
+)
+
+class Text(models.Model):
+    __metaclass__ = StandAloneMetaclass
+    title = models.CharField(verbose_name=u'название')
+    
+    def __unicode__(self):
+        return self.title
+    
+    class Meta:
+        verbose_name = u'текст'
+        verbose_name_plural = u'тексты'
+
+
+class Ngramm(models.Model):
+    __metaclass__ = StandAloneMetaclass
+    n_gramm = models.CharField(db_index=True, verbose_name=u'N-грамма')
+    text = models.ManyToManyField(Text, verbose_name=u'Текст')
+    
+    def __unicode__(self):
+        return self.n_gramm
+    
+    class Meta:
+        verbose_name = u'n-грамма'
+        verbose_name_plural = u'n-граммы'
+
+
+class Word(models.Model):
+    __metaclass__ = StandAloneMetaclass
+    word = models.CharField(db_index=True, verbose_name=u'Слово')
+    probability = models.FloatField(default=0.0, verbose_name=u'Вероятность слова в тексте')
+    n_gramm = models.ManyToManyField(Ngramm, verbose_name=u'N-грамма')
+    
+    def __unicode__(self):
+        return self.word
+    
+    class Meta:
+        verbose_name = u'слово'
+        verbose_name_plural = u'слова'
+
+
+class Significant(models.Model):
+    __metaclass__ = StandAloneMetaclass
+    significant = models.ManyToManyField('self', verbose_name=u'Сигнификаты')
+    article = models.TextField(verbose_name=u'Словарная статья')
+    
+    class Meta:
+        verbose_name = u'сигнификат'
+        verbose_name_plural = u'сигнификаты'
+
+
+class Triangle(models.Model):
+    __metaclass__ = StandAloneMetaclass
+    word = models.ForeignKey(Word, verbose_name=u'Слово')
+    significant = models.ForeignKey(Significant, verbose_name=u'Сигнификат')
+    weight = models.FloatField(default=0.0, verbose_name=u'Вес')
+    
+    class Meta:
+        verbose_name = u'треугольник'
+        verbose_name_plural = u'треугольники'
+
+
+class Relation(models.Model):
+    __metaclass__ = StandAloneMetaclass
+    orientation = models.CharField(max_length=2, choices=ORIENTATION_CHOICES, verbose_name=u'Направление связи')
+    significant1 = models.ForeignKey(Significant, verbose_name=u'Первый сигнификат')
+    significant2 = models.ForeignKey(Significant, verbose_name=u'Второй сигнификат')
+    weight = models.FloatField(default=0.0, verbose_name=u'Вес')
+    
+    class Meta:
+        verbose_name = u'отношение'
+        verbose_name_plural = u'отношения'
+        
+        
+def create_table(cls):
+    from django.db import connection
+    from django.core.management.color import no_style
+    
+    sql, references = connection.creation.sql_create_model(cls, no_style())
+    cursor = connection.cursor()
+    for q in sql:
+        try:
+            cursor.execute(q)
+        except:
+            pass
+    
+
+def create_tables(tables):
+    from django.db import connection, transaction
+    from django.core.management.color import no_style
+    pending_references = {}  # список внешних колючей, ожидающих создания связываемых таблиц
+    seen_models = set()  # список созданных
+    style = no_style()  # указывает, что не нужно раскрашивать синтаксис сгенерированного SQL
+    for model in tables:  # проходим по списку моделей
+        sql, references = connection.creation.sql_create_model(model, style) # генерируем SQL и объекты внешних ключей
+        seen_models.add(model)
+        for refto, refs in references.items():
+            pending_references.setdefault(refto, []).extend(refs)
+            if refto in seen_models:
+                sql.extend(  # если все таблицы внешнего ключа существуют, то добавляем сам ключ
+                    connection.creation.sql_for_pending_references(
+                            refto,
+                            style,
+                            pending_references))
+        sql.extend(
+            connection.creation.sql_for_pending_references(
+                model,
+                style,
+                pending_references))
+        cursor = connection.cursor()
+        for stmt in sql:  # выполняем запросы к БД
+            print stmt
+            try:
+                cursor.execute(stmt)
+            except Exception, e:
+                print e
+                pass
+        print
+    transaction.commit_unless_managed()  # завершаем транзакцию
+    for model in tables:  # создаем индексы
+        index_sql = connection.creation.sql_indexes_for_model(model, style)
+        if index_sql:
+            try:
+                for stmt in index_sql:
+                    print stmt
+                    cursor.execute(stmt)
+            except Exception, e:
+                transaction.rollback_unless_managed()
+            else:
+                transaction.commit_unless_managed()
+
+
+if __name__ == "__main__":
+    # находим все классы Django моделей в локальной области видимости и создаем для них
+    # таблицы в БД
+    create_tables(model for model in locals().values() if type(model) == StandAloneMetaclass)    

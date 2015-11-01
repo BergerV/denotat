@@ -1,0 +1,43 @@
+{% extends "admin/change_list.html" %}
+{% load i18n %}
+{% load lang_tags %}
+{% block extrahead %}
+    <script	type="text/javascript" src="/media/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/media/js/jquery-ui.min.js"></script>     
+    <script type="text/javascript" src="/media/js/jquery.form.js"></script>    
+    <script	type="text/javascript" src="/media/js/inn.js"></script>    
+{% endblock %}
+{% block object-tools %}
+<style>
+    .top td {vertical-align: middle;}
+</style>
+<form id="load" method="post" action="{% url load %}">{% csrf_token %}
+<table class="top">
+<tr>
+<td>Загрузить оригинал из файла:</td> 
+<td><input type="file" name="orig_name" required></td>
+<td>Загрузить перевод из файла:</td> 
+<td><input type="file" name="trans_name" required></td> 
+<td rowspan="2"><input type="submit" id="submit" style="height:100%" /></td>
+<td rowspan="2" id='progress' style="display: none;"><img src='/media/img/ajax-loader.gif' />&nbsp;&nbsp;&nbsp;Пожалуйста, не обновляйте страницу. Идет составление словаря!</td>
+</tr>
+{% select_lang %}
+</table>
+</form>
+<br>
+<H1>Вычисление BLEU</H1>
+<form id="bleu" method="post" action="{% url evaluation %}">{% csrf_token %}
+<table class="top">
+<tr>
+<td>Загрузить оригинал из файла:</td> 
+<td><input type="file" name="orig_name" required></td>
+<td>Загрузить перевод из файла:</td> 
+<td><input type="file" name="trans_name" required></td> 
+<td rowspan="2"><input type="submit" id="submit" style="height:100%" value="Вычислить BLEU"/></td>
+<td rowspan="2" id='bleu-progress' style="display: none;"><img src='/media/img/ajax-loader.gif' />&nbsp;&nbsp;&nbsp;Пожалуйста, не обновляйте страницу. Идет вычисление метрики BLEU!</td>
+</tr>
+{% select_lang %}
+</table>
+
+</form>
+{% endblock %}
