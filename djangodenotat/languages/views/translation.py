@@ -3,13 +3,13 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render_to_response, get_list_or_404
 from django.http import HttpResponseRedirect, QueryDict, HttpResponse
 from django.template import RequestContext
-from diploma2.languages.models import *
-from diploma2.utils import split_by_sentensis, split_by_words_and_punctuation, replace_all_quotes, make_string, replace_numbers, make_final_string, split_n_gramm, encode_phrase
-from django.utils import simplejson
+from djangodenotat.languages.models import *
+from djangodenotat.test.text_parser import make_string, split_by_sentences, make_final_string, split_n_gramm, encode_phrase
+import json
 from django.views.decorators.csrf import csrf_protect
 import datetime
 import time
-from django.db.models import Max
+from django.db.models import Max, Sum
 from math import *
 from itertools import permutations
 from django.db import connection, transaction
@@ -37,7 +37,7 @@ def trans(request):
         trans = translating(msg, langin, langout, change)
         #МАГИЯ СТАТИСТИЧЕСКОГО ПЕРЕВОДА#----#КОНЕЦ#
         js={"trans":trans}
-        data=simplejson.dumps(js)
+        data= json.dumps(js)
         return HttpResponse(data,mimetype)
     else:
         return HttpResponse(status=400) 
@@ -110,7 +110,7 @@ def uncertainty(orig, langin, trans, langout, change):
     #print 'b ',power    
     return pow(2, power)
 
-def cross_entropy(text, lang, size):
+def cross_entropy(text, langout, size):
     sum = 0.0    
     text = make_string(text)
     words = split_n_gramm(text)
@@ -537,7 +537,7 @@ def improve(text, trans, langin, langout, change, pp):
 def translating(msg, langin, langout, change):
     print 'START TRANSLATION', datetime.datetime.now()
     t = time.time() 
-    text = split_by_sentensis(msg)    
+    text = split_by_sentences(msg)
     result = []
     words = []
     for s in text:        

@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Реферативный переводчик</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="shortcut icon" href="/media/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/media/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/media/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href=/media/css/style.css" />
+    {% block base_scripts %}
+    <script	type="text/javascript" src="/media/js/jquery/jquery-2.1.1.min.js" ></script>
+    <script type="text/javascript" src="/media/js/jquery/jquery-ui.custom.min.js" ></script>
+    <script type="text/javascript" src="/media/js/jquery/jquery-ui-1.10.4.min.js" ></script>
+    <script	type="text/javascript" src="/media/js/app.js" ></script>
+    {% endblock %}
+    {% block add_scripts %}
+
+    {% endblock %}
+</head>
+
+<body>
+    {% block main %}
+        <form>{% csrf_token %}
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td class="col-lg-4">
+                            <h4>Исходный текст:</h4>
+                        </td>
+                        <td class="col-lg-2"></td>
+                        <td class="col-lg-6">
+                            <h4>Результат:</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan='3'><div class="clear"/></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="langin" id="langin" cols="20" class="col-lg-4" >
+                                {% for lang in languages %}
+                                <option value="{{ lang.id }}">{{ lang.name }}</option>
+                                {% endfor %}
+                            </select>
+                            <select name="langout" id="langout" cols="20" class="col-lg-4">
+                                {% for lang in languages %}
+                                <option value="{{ lang.id }}">{{ lang.name }}</option>
+                                {% endfor %}
+                            </select>
+                            <button name="trans_btn" id="Submit" type="submit" class="btn btn-success col-lg-4">Перевести</button>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan='3'><div class="clear"/></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea  name="msg" id="id_text" cols="58" rows="15"></textarea>
+                        </td>
+                        <td></td>
+                        <td class="translation" id="trans"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    {% endblock %}
+</body>
+</html>

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.conf import settings
 from django.http import HttpResponseForbidden
-from django.template import RequestContext,Template,loader,TemplateDoesNotExist
-from django.utils.importlib import import_module
+from django.template import RequestContext, Template, loader, TemplateDoesNotExist
+from importlib import import_module
 
 """
 # Middleware to allow the display of a 403.html template when a
@@ -22,9 +22,9 @@ class Http403Middleware(object):
 
         try:
             # Handle import error but allow any type error from view
-            callback = getattr(import_module(settings.ROOT_URLCONF),'handler403')
-            return callback(request,exception)
-        except (ImportError,AttributeError):
+            callback = getattr(import_module(settings.ROOT_URLCONF), 'handler403')
+            return callback(request, exception)
+        except (ImportError, AttributeError):
             # Try to get a 403 template
             try:
                 # First look for a user-defined template named "403.html"

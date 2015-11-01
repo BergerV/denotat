@@ -1,21 +1,13 @@
 # -*- coding: utf-8 -*-
-from django.http import HttpResponseRedirect
-from django.shortcuts import get_object_or_404, render_to_response, get_list_or_404
-from django.http import HttpResponseRedirect, QueryDict, HttpResponse
-from django.template import RequestContext
-from diploma2.languages.models import *
-from diploma2.utils import split_by_sentensis, split_by_words, split_into_ngramm, split_by_words_and_punctuation
-from django.views.decorators.csrf import csrf_protect
-from math import log, exp, sqrt
+from djangodenotat.languages.models import *
+from djangodenotat.test.text_parser import split_into_ngramm, split_by_words_and_punctuation
 from collections import defaultdict
-from django.db.models import Max, Sum
-from django.db import connection, transaction
-import datetime
-from django.conf import settings 
-import os
+from django.conf import settings
+import json
 import codecs
-from diploma2.languages.views.translation import *
+from djangodenotat.languages.views.translation import *
 from math import *
+
 
 @csrf_protect
 def evaluation(request):   #bleu metric
@@ -39,7 +31,7 @@ def evaluation(request):   #bleu metric
         metric = score / float(count)    
         print 'BLEU = ', metric
         js={"bleu":metric}
-        data=simplejson.dumps(js)
+        data = json.dumps(js)
         return HttpResponse(data,mimetype)
         #return HttpResponse('',mimetype)
     else:
