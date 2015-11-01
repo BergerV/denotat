@@ -2,379 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9619d3db-a3b9-45da-be0c-6615a436cdee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fonts/._glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fonts/._glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/images/admin-tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/arrow-down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/arrow-up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/changelist-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/changelist-bg_rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/chooser-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/chooser_stacked-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/default-bg-reverse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/default-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/deleted-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/images/django.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon-no.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon-unknown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon-yes.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon_addlink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon_alert.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon_calendar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon_changelink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon_clock.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon_deletelink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon_error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon_searchbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/icon_success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/inline-delete-8bit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/inline-delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/inline-restore-8bit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/inline-restore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/inline-splitter-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/gis/move_vertex_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/gis/move_vertex_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/nav-bg-grabber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/nav-bg-reverse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/nav-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/selector-add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/selector-addall.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/selector-remove.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/selector-removeall.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/selector-search.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/selector_stacked-add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/selector_stacked-remove.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/tool-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/tool-left_over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/tool-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/tool-right_over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/tooltag-add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/tooltag-add_over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/tooltag-arrowright.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/img/admin/tooltag-arrowright_over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-anim_basic_16x16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/LICENSE-JQUERY.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/SelectBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/SelectFilter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/actions.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/angular/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/bootstrap/angular-bootstrap-checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/bootstrap/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/bootstrap/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/languages/translation/change_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/css/changelists.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/collapse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/compress.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/dashboard-ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/js/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/dateparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/css/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/getElementsBySelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/css/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/test/index.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/inlines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/inlines.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/jquery/jquery-2.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/jquery/jquery-ui-1.10.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/jquery/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/jquery/jquery-ui.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/js/jquery/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/js/jquery/jquery.cookie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/js/jquery/jquery.dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/jquery.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/js/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/js/json.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/menu-ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/js/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/test/morph_analyze.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/admin/ordering.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/prepopulate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/prepopulate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/css/rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/tags/select_lang.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/css/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/test/text_parser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/css/theming.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/timeparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/bootstrap/ui-bootstrap-tpls-0.12.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/js/urlify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin_tools/js/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/admin/css/widgets.css" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\djangodenotat.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\modules.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\languages\forms.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\languages\tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\languages\views\copy.tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\css\base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\css\changelists.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\css\dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\css\forms.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\css\ie.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\css\login.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\css\rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\css\widgets.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\arrow-down.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\arrow-up.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\changelist-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\changelist-bg_rtl.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\chooser-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\chooser_stacked-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\default-bg-reverse.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\default-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\deleted-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon-unknown.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon_addlink.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon_alert.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon_calendar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon_changelink.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon_clock.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon_deletelink.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon_error.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon_searchbox.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\icon_success.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\inline-delete-8bit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\inline-delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\inline-restore-8bit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\inline-restore.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\inline-splitter-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\nav-bg-grabber.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\nav-bg-reverse.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\nav-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\selector-add.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\selector-addall.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\selector-remove.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\selector-removeall.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\selector-search.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\selector_stacked-add.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\selector_stacked-remove.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\tool-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\tool-left_over.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\tool-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\tool-right_over.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\tooltag-add.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\tooltag-add_over.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\tooltag-arrowright.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\admin\tooltag-arrowright_over.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\gis\move_vertex_off.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\img\gis\move_vertex_on.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\LICENSE-JQUERY.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\SelectBox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\SelectFilter2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\actions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\actions.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\admin\DateTimeShortcuts.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\admin\RelatedObjectLookups.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\admin\ordering.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\collapse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\compress.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\core.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\dateparse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\getElementsBySelector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\inlines.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\inlines.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\jquery.init.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\prepopulate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\prepopulate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\timeparse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin\js\urlify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\dashboard-ie.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-anim_basic_16x16.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\jquery\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\menu-ie.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\menu.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\css\theming.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\images\admin-tools.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\images\django.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\js\dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\js\jquery\jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\js\jquery\jquery.cookie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\js\jquery\jquery.dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\js\jquery\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\js\json.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\js\menu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\admin_tools\js\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\css\animate.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\css\style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\css\font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\fonts\fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\animated.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\core.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\icons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\larger.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\list.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\path.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\font-awesome\scss\font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\fonts\._glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\fonts\._glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\angular\angular-animate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\angular\angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\angular\angular-animate.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\angular\angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\angular\angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\bootstrap\angular-bootstrap-checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\bootstrap\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\bootstrap\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\bootstrap\ui-bootstrap-tpls-0.12.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\jquery\jquery-2.1.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\jquery\jquery-ui-1.10.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\media\js\jquery\jquery-ui.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\templates\admin\languages\translation\change_list.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\templates\base.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\templates\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\djangodenotat\templates\tags\select_lang.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/languages/admin.py" afterPath="$PROJECT_DIR$/djangodenotat/languages/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/languages/views/admin.py" afterPath="$PROJECT_DIR$/djangodenotat/languages/views/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/middleware/http.py" afterPath="$PROJECT_DIR$/djangodenotat/middleware/http.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/languages/templatetags/lang_tags.py" afterPath="$PROJECT_DIR$/djangodenotat/languages/templatetags/lang_tags.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/languages/models.py" afterPath="$PROJECT_DIR$/djangodenotat/languages/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/settings.py" afterPath="$PROJECT_DIR$/djangodenotat/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/languages/views/translation.py" afterPath="$PROJECT_DIR$/djangodenotat/languages/views/translation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/urls.py" afterPath="$PROJECT_DIR$/djangodenotat/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/languages/urls.py" afterPath="$PROJECT_DIR$/djangodenotat/languages/urls.py" />
     </list>
     <ignored path="djangodenotat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -407,7 +36,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/djangodenotat/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.55873924" vertical-offset="1742" max-vertical-offset="2584">
+            <state vertical-scroll-proportion="-0.84782606" vertical-offset="1742" max-vertical-offset="2584">
               <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
               <folding />
             </state>
@@ -880,7 +509,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446391678758</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="upd">
+      <created>1446405843482</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1446405843482</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -894,9 +529,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3739968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56500804" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3739968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56500804" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1068,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/djangodenotat/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.55873924" vertical-offset="1742" max-vertical-offset="2584">
+        <state vertical-scroll-proportion="-0.84782606" vertical-offset="1742" max-vertical-offset="2584">
           <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
           <folding />
         </state>
