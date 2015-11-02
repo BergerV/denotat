@@ -2,8 +2,348 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9619d3db-a3b9-45da-be0c-6615a436cdee" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\workspace\djangodenotat\.idea\workspace.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/fonts/._glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/fonts/._glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/images/admin-tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/arrow-down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/arrow-up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/changelist-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/changelist-bg_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/chooser-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/chooser_stacked-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/default-bg-reverse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/default-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/deleted-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/images/django.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon-no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon-unknown.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon-yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon_addlink.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon_alert.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon_calendar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon_changelink.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon_clock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon_deletelink.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon_error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon_searchbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/icon_success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/inline-delete-8bit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/inline-delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/inline-restore-8bit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/inline-restore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/inline-splitter-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/gis/move_vertex_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/gis/move_vertex_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/nav-bg-grabber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/nav-bg-reverse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/nav-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/selector-add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/selector-addall.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/selector-remove.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/selector-removeall.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/selector-search.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/selector_stacked-add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/selector_stacked-remove.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/tool-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/tool-left_over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/tool-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/tool-right_over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/tooltag-add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/tooltag-add_over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/tooltag-arrowright.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/img/admin/tooltag-arrowright_over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-anim_basic_16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/LICENSE-JQUERY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/SelectBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/SelectFilter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/bootstrap/angular-bootstrap-checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/plugin/bootstrap-fileinput/angular-bootstrap-file-field.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/bootstrap/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/bootstrap/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/css/changelists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/collapse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/compress.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/dashboard-ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/js/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/dateparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/getElementsBySelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/css/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/inlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/inlines.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/jquery/jquery-2.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/jquery/jquery-ui-1.10.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/jquery/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/jquery/jquery-ui.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/js/jquery/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/js/jquery/jquery.cookie.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/js/jquery/jquery.dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/jquery.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/js/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/js/json.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/menu-ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/js/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/admin/ordering.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/prepopulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/prepopulate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/css/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/css/theming.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/timeparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/js/bootstrap/ui-bootstrap-tpls-0.12.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/js/urlify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin_tools/js/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangodenotat/media/admin/css/widgets.css" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\css\base.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\css\changelists.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\css\dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\css\forms.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\css\ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\css\login.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\css\rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\css\widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\arrow-down.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\arrow-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\changelist-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\changelist-bg_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\chooser-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\chooser_stacked-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\default-bg-reverse.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\default-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\deleted-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon-no.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon-unknown.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon-yes.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon_addlink.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon_alert.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon_calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon_changelink.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon_clock.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon_deletelink.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon_error.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon_searchbox.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\icon_success.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\inline-delete-8bit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\inline-delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\inline-restore-8bit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\inline-restore.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\inline-splitter-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\nav-bg-grabber.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\nav-bg-reverse.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\nav-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\selector-add.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\selector-addall.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\selector-remove.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\selector-removeall.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\selector-search.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\selector_stacked-add.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\selector_stacked-remove.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\tool-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\tool-left_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\tool-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\tool-right_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\tooltag-add.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\tooltag-add_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\tooltag-arrowright.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\admin\tooltag-arrowright_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\gis\move_vertex_off.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\img\gis\move_vertex_on.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\LICENSE-JQUERY.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\SelectBox.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\SelectFilter2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\actions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\actions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\admin\DateTimeShortcuts.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\admin\RelatedObjectLookups.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\admin\ordering.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\collapse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\compress.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\dateparse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\getElementsBySelector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\inlines.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\inlines.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\jquery.init.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\prepopulate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\prepopulate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\timeparse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin\js\urlify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\dashboard-ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-anim_basic_16x16.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\jquery\jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\menu-ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\menu.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\css\theming.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\images\admin-tools.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\images\django.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\js\dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\js\jquery\jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\js\jquery\jquery.cookie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\js\jquery\jquery.dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\js\jquery\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\js\json.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\js\menu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\admin_tools\js\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\css\style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\fonts\fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\animated.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\core.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\icons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\larger.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\list.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\path.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\font-awesome\scss\font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\fonts\._glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\fonts\._glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\angular\angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\angular\angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\angular\angular-animate.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\angular\angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\bootstrap\angular-bootstrap-checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\bootstrap\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\bootstrap\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\bootstrap\ui-bootstrap-tpls-0.12.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\jquery\jquery-2.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\jquery\jquery-ui-1.10.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Varvara K\pyCharmProjects\denotat\media\js\jquery\jquery-ui.custom.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/languages/templatetags/lang_tags.py" afterPath="$PROJECT_DIR$/djangodenotat/languages/templatetags/lang_tags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/settings.py" afterPath="$PROJECT_DIR$/djangodenotat/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangodenotat/urls.py" afterPath="$PROJECT_DIR$/djangodenotat/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="djangodenotat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,9 +359,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="djangodenotat" is-module-sdk="true">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
     <option name="myUseModuleSdk" value="true" />
@@ -33,24 +370,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangodenotat/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.84782606" vertical-offset="1742" max-vertical-offset="2584">
-              <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="http.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangodenotat/middleware/http.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/djangodenotat/languages/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="986">
-              <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-              <folding>
-                <element signature="e#24#56#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,7 +393,7 @@
       <file leaf-file-name="text_parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangodenotat/test/text_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2754">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <element signature="e#43#54#0" expanded="true" />
@@ -70,16 +405,10 @@
       <file leaf-file-name="translation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangodenotat/languages/views/translation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9788" max-vertical-offset="10370">
+            <state vertical-scroll-proportion="0.0">
               <caret line="579" column="26" selection-start-line="579" selection-start-column="26" selection-end-line="579" selection-end-column="26" />
               <folding>
                 <element signature="e#24#68#0" expanded="true" />
-                <marker date="1446397050636" expanded="true" signature="5817:6051" placeholder="SELECT disti..languages_translation..." />
-                <marker date="1446397050636" expanded="true" signature="6187:6420" placeholder="SELECT langu..languages_translation..." />
-                <marker date="1446397050636" expanded="true" signature="6971:7204" placeholder="SELECT disti..languages_translation..." />
-                <marker date="1446397050636" expanded="true" signature="7445:7678" placeholder="SELECT langu..languages_translation..." />
-                <marker date="1446397050636" expanded="true" signature="11738:12010" placeholder="SELECT langu..languages_translation..." />
-                <marker date="1446397050636" expanded="true" signature="12489:12761" placeholder="SELECT langu..languages_translation..." />
               </folding>
             </state>
           </provider>
@@ -88,7 +417,7 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangodenotat/languages/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#24#56#0" expanded="true" />
@@ -100,8 +429,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangodenotat/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
                 <element signature="e#43#73#0" expanded="true" />
               </folding>
@@ -109,11 +438,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1343">
-              <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.23308271">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-bootstrap-file-field.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/djangodenotat/media/js/plugin/bootstrap-fileinput/angular-bootstrap-file-field.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/djangodenotat/media/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -132,7 +483,6 @@
         <option value="$PROJECT_DIR$/djangodenotat/media/js/config.js" />
         <option value="$PROJECT_DIR$/djangodenotat/templates/base.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/djangodenotat/media/js/app.js" />
         <option value="$PROJECT_DIR$/djangodenotat/languages/urls.py" />
         <option value="$PROJECT_DIR$/djangodenotat/languages/models.py" />
         <option value="$PROJECT_DIR$/djangodenotat/utils.py" />
@@ -140,21 +490,29 @@
         <option value="$PROJECT_DIR$/djangodenotat/languages/views/translation.py" />
         <option value="$PROJECT_DIR$/djangodenotat/languages/admin.py" />
         <option value="$PROJECT_DIR$/djangodenotat/middleware/http.py" />
-        <option value="$PROJECT_DIR$/djangodenotat/urls.py" />
         <option value="$PROJECT_DIR$/djangodenotat/templates/index.html" />
+        <option value="$PROJECT_DIR$/djangodenotat/languages/templatetags/lang_tags.py" />
+        <option value="$PROJECT_DIR$/djangodenotat/urls.py" />
         <option value="$PROJECT_DIR$/djangodenotat/settings.py" />
+        <option value="$PROJECT_DIR$/djangodenotat/media/css/style.css" />
+        <option value="$PROJECT_DIR$/djangodenotat/media/js/plugin/bootstrap-fileinput/angular-bootstrap-file-field.js" />
+        <option value="$PROJECT_DIR$/djangodenotat/media/js/app.js" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -179,43 +537,68 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="djangodenotat" />
+              <option name="myItemId" value="denotat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.8 (C:\Program Files\python27\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="djangodenotat" />
+              <option name="myItemId" value="denotat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="djangodenotat" />
+              <option name="myItemId" value="denotat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="djangodenotat" />
+              <option name="myItemId" value="denotat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="djangodenotat" />
+              <option name="myItemId" value="denotat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="denotat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="denotat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="denotat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="denotat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="djangodenotat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,6 +614,9 @@
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -245,7 +631,41 @@
       <recent name="C:\Users\user\workspace\djangodenotat\djangodenotat" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.djangodenotat">
+  <component name="RunManager" selected="Django server.denotat">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="djangodenotat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,82 +692,6 @@
       <module name="djangodenotat" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="djangodenotat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="djangodenotat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="djangodenotat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -389,6 +733,77 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="djangodenotat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="djangodenotat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="djangodenotat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -439,29 +854,6 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="djangodenotat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="djangodenotat" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -488,8 +880,33 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="denotat" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangodenotat.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="denotat" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Django server.djangodenotat" />
+      <item index="1" class="java.lang.String" itemvalue="Django server.denotat" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -519,29 +936,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43017656" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2521322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3739968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56500804" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37326202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3486631" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43017656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -557,9 +974,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -571,75 +985,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/djangodenotat/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08571429" vertical-offset="0" max-vertical-offset="595">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangodenotat/models/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangodenotat/test/__init__.py">
+    <entry file="file://$PROJECT_DIR$/djangodenotat/middleware/http.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2420168" vertical-offset="229" max-vertical-offset="884">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#24#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangodenotat/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143" vertical-offset="0" max-vertical-offset="595">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/views/translation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9788" max-vertical-offset="10370">
-          <caret line="579" column="26" selection-start-line="579" selection-start-column="26" selection-end-line="579" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#68#0" expanded="true" />
-            <marker date="1446397050636" expanded="true" signature="5817:6051" placeholder="SELECT disti..languages_translation..." />
-            <marker date="1446397050636" expanded="true" signature="6187:6420" placeholder="SELECT langu..languages_translation..." />
-            <marker date="1446397050636" expanded="true" signature="6971:7204" placeholder="SELECT disti..languages_translation..." />
-            <marker date="1446397050636" expanded="true" signature="7445:7678" placeholder="SELECT langu..languages_translation..." />
-            <marker date="1446397050636" expanded="true" signature="11738:12010" placeholder="SELECT langu..languages_translation..." />
-            <marker date="1446397050636" expanded="true" signature="12489:12761" placeholder="SELECT langu..languages_translation..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/djangodenotat/test/text_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2754">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="e#43#54#0" expanded="true" />
@@ -647,9 +1011,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/views/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="579" column="26" selection-start-line="579" selection-start-column="26" selection-end-line="579" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/djangodenotat/languages/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#24#56#0" expanded="true" />
@@ -657,35 +1031,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangodenotat/middleware/http.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="986">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-          <folding>
-            <element signature="e#24#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/views/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2922636" vertical-offset="0" max-vertical-offset="5967">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3756906" vertical-offset="0" max-vertical-offset="362">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangodenotat/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="e#43#73#0" expanded="true" />
@@ -695,16 +1043,184 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1343">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08571429">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/models/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2420168">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2857143">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/views/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="579" column="26" selection-start-line="579" selection-start-column="26" selection-end-line="579" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/test/text_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/views/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2922636">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/middleware/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11648746">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/djangodenotat/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.84782606" vertical-offset="1742" max-vertical-offset="2584">
-          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/media/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77504724">
+          <caret line="1115" column="1" selection-start-line="1102" selection-start-column="0" selection-end-line="1115" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/media/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4516129">
+          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/templatetags/lang_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21326165">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#27#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/media/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/media/js/plugin/bootstrap-fileinput/angular-bootstrap-file-field.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#43#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangodenotat/languages/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tags/select_lang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.287594">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="n#select#0;n#td#3;n#tr#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23308271">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding />
         </state>
       </provider>
