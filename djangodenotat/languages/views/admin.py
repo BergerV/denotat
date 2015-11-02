@@ -16,9 +16,9 @@ def evaluation(request):   #bleu metric
         postdata = request.POST
         postfiles = request.FILES
         orig = postfiles['orig_name']
-        ref  = postfiles['trans_name']
-        langin = Language.objects.get(id = postdata['langin'])    
-        langout = Language.objects.get(id = postdata['langout'])        
+        ref = postfiles['trans_name']
+        langin = Language.objects.get(id=postdata['langin'])
+        langout = Language.objects.get(id=postdata['langout'])
         count = 0        
         score = 0.0  
         metric = 0.0       
@@ -30,15 +30,16 @@ def evaluation(request):   #bleu metric
         
         metric = score / float(count)    
         print 'BLEU = ', metric
-        js={"bleu":metric}
+        js = {"bleu": metric}
         data = json.dumps(js)
-        return HttpResponse(data,mimetype)
-        #return HttpResponse('',mimetype)
+        return HttpResponse(data, mimetype)
+
     else:
-        return HttpResponse(status=400)        
+        return HttpResponse(status=400)
+
         
 def BLEU(hyp, ref):
-    #print 'BLEU'
+    # print 'BLEU'
     metric = 0.0
     hyp_list = split_by_words_and_punctuation(hyp.lower())
     ref_list = split_by_words_and_punctuation(ref.lower())   
@@ -53,14 +54,13 @@ def BLEU(hyp, ref):
         Bp = exp(1-(float(hyp_len)/ref_len))    
     sum = 0.0
     N = 4
-    for i in range(1,N+1):
+    for i in range(1, N+1):
         try:
             p = log(Pn(h_list, r_list, i), 2)        
         except:
             p = -99999
         sum += (p/float(N))
-    
-    
+
     metric = Bp*exp(sum)
     print 'BLEU =', metric
     return metric
@@ -77,8 +77,7 @@ def Pn(hyp, ref, size):
             equal += 1        
     for n_gramm in hyp:        
         if len(split_n_gramm(n_gramm)) == size:
-            count += 1   
-    #print 'lol'        
+            count += 1
     try:            
         return float(equal)/count
     except:
@@ -90,18 +89,21 @@ def len_text(text):
     l = 0
     for s in text:
         l += len(split_by_words_and_punctuation(s.strip()))        
-    return l    
+    return l
+
 
 def bitext(orig, trans):
     for (o, t) in zip(orig, trans):        
-        yield (split_into_ngramm(o,5), split_into_ngramm(t,5))   
+        yield (split_into_ngramm(o, 5), split_into_ngramm(t, 5))
+
 
 def normalize(table):
     for (ow, twtable) in table.iteritems():
         Z = sum(twtable.values())
         for tw in twtable:
             twtable[tw] = twtable[tw] / Z
-            
+
+
 @csrf_protect
 def load2(request):   #составление списка n-грамм     
     if request.is_ajax():
@@ -110,8 +112,8 @@ def load2(request):   #составление списка n-грамм
         postfiles = request.FILES
         orig = postfiles['orig_name']
         trans = postfiles['trans_name']
-        langin = Language.objects.get(id = postdata['langin'])    
-        langout = Language.objects.get(id = postdata['langout'])        
+        langin = Language.objects.get(id=postdata['langin'])
+        langout = Language.objects.get(id=postdata['langout'])
 
         #магия с обработкой параллельных текстов ---- НАЧАЛО   
         print 'START', datetime.datetime.now()
@@ -135,8 +137,7 @@ def load2(request):   #составление списка n-грамм
                 if tw not in u_t:                     
                     u_t.append(tw)
         text_unique = [u_o, u_t]             #список уникальных n-грамм
-        
-                
+
         print 'CALCULATING N-GRAMM FREQUENCE', datetime.datetime.now()
         for o in text_unique[0]:
             otable[ow] = 0
@@ -145,11 +146,10 @@ def load2(request):   #составление списка n-грамм
                   
         for (o, t) in bitext(orig, trans):
             for ow in o: 
-                otable[ow] += float(1)/ len_o
+                otable[ow] += float(1)/len_o
             for tw in t: 
-                ttable[tw] += float(1)/ len_t                
+                ttable[tw] += float(1)/len_t
 
-                
         print 'WRITE N-GRAMMS IN FILE', datetime.datetime.now()
 
         cursor = connection.cursor()
@@ -161,10 +161,10 @@ def load2(request):   #составление списка n-грамм
             f.write('"%s",%s,%s,%.10f\n' % (o.replace('"', "'"), len(split_n_gramm(o)), langin.id, otable[o]))            
             i += 1
                         
-            if i>=900:                
+            if i >= 900:
                 i = 0
                 f.close()
-                cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, frequence) FROM \'%s\' DELIMITERS \',\' CSV' % filename)               
+                cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, frequence) FROM \'%s\' DELIMITERS \',\' CSV' % filename)
                 transaction.commit_unless_managed()                
                 f = codecs.open(filename, "w", "utf-8") 
 
@@ -178,7 +178,7 @@ def load2(request):   #составление списка n-грамм
             f.write('"%s",%s,%s,%.10f\n' % (t.replace('"', "'"), len(split_n_gramm(t)), langout.id, ttable[t]))                
             i += 1
                         
-            if i>=900:
+            if i >= 900:
                 i = 0
                 f.close()
                 cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, frequence) FROM \'%s\' DELIMITERS \',\' CSV' % filename)               
@@ -190,13 +190,14 @@ def load2(request):   #составление списка n-грамм
         transaction.commit_unless_managed()
         cursor.close()
         
-        #магия с обработкой параллельных текстов ---- КОНЕЦ                        
+        # магия с обработкой параллельных текстов ---- КОНЕЦ
         print 'END', datetime.datetime.now()
         
         return HttpResponse('',mimetype)
     else:
         return HttpResponse(status=400)
-            
+
+
 @csrf_protect
 def load(request):        
     if request.is_ajax():
@@ -205,10 +206,10 @@ def load(request):
         postfiles = request.FILES
         orig = postfiles['orig_name']
         trans = postfiles['trans_name']
-        langin = Language.objects.get(id = postdata['langin'])    
-        langout = Language.objects.get(id = postdata['langout'])        
+        langin = Language.objects.get(id=postdata['langin'])
+        langout = Language.objects.get(id=postdata['langout'])
 
-        #магия с обработкой параллельных текстов ---- НАЧАЛО   
+        # магия с обработкой параллельных текстов ---- НАЧАЛО
         print 'START', datetime.datetime.now()
         table = defaultdict(lambda: defaultdict(float))  
         otable = defaultdict(float)
@@ -229,9 +230,8 @@ def load(request):
             for tw in t: 
                 if tw not in u_t:                     
                     u_t.append(tw)
-        text_unique = [u_o, u_t]             #список уникальных n-грамм
-        
-                
+        text_unique = [u_o, u_t]             # список уникальных n-грамм
+
         print 'CALCULATING N-GRAMM FREQUENCE', datetime.datetime.now()
         for o in text_unique[0]:
             otable[ow] = 0
@@ -240,10 +240,9 @@ def load(request):
                   
         for (o, t) in bitext(orig, trans):
             for ow in o: 
-                otable[ow] += float(1)/ len_o
+                otable[ow] += float(1)/len_o
             for tw in t: 
-                ttable[tw] += float(1)/ len_t                
-
+                ttable[tw] += float(1)/len_t
                 
         print 'WRITE N-GRAMMS IN FILE', datetime.datetime.now()
 
@@ -256,7 +255,7 @@ def load(request):
             f.write('"%s",%s,%s,%.10f\n' % (o.replace('"', "'"), len(split_n_gramm(o)), langin.id, otable[o]))            
             i += 1
                         
-            if i>=900:                
+            if i >= 900:
                 i = 0
                 f.close()
                 cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, frequence) FROM \'%s\' DELIMITERS \',\' CSV' % filename)               
@@ -273,7 +272,7 @@ def load(request):
             f.write('"%s",%s,%s,%.10f\n' % (t.replace('"', "'"), len(split_n_gramm(t)), langout.id, ttable[t]))                
             i += 1
                         
-            if i>=900:
+            if i >= 900:
                 i = 0
                 f.close()
                 cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, frequence) FROM \'%s\' DELIMITERS \',\' CSV' % filename)               
@@ -296,7 +295,7 @@ def load(request):
             print 'iteration {'+str(i)+'}...', datetime.datetime.now()
             counts = defaultdict(float)
             total = defaultdict(float)
-            #print 'E-step'
+            # print 'E-step'
             for (o, t) in bitext(orig, trans):
                 for ow in o:
                     stotal = sum(table[ow].values())
@@ -305,7 +304,7 @@ def load(request):
                         counts[(ow, tw)] += c
                         total[tw] += c          
 
-            #print 'M-step'
+            # print 'M-step'
             for (o, t) in bitext(orig, trans):
                 for ow in o: 
                     for tw in t: 
@@ -325,7 +324,7 @@ def load(request):
                     f.write('"%s",%s,"%s",%s,%.10f\n' % (ow, langin.id, tw, langout.id, probability))
                     i += 1
                         
-                    if i>=900: #400
+                    if i >= 900:
                         i = 0                        
                         print 'iteration {'+str(k)+'}...', datetime.datetime.now()
                         k += 1
@@ -338,9 +337,9 @@ def load(request):
         cursor.execute('COPY languages_translation (orig, lang_orig_id, trans, lang_trans_id, probability) FROM \'%s\' DELIMITERS \',\' CSV' % filename)
         transaction.commit_unless_managed()
         cursor.close()
-        #магия с обработкой параллельных текстов ---- КОНЕЦ                        
+        # магия с обработкой параллельных текстов ---- КОНЕЦ
         print 'END', datetime.datetime.now()
         
-        return HttpResponse('',mimetype)
+        return HttpResponse('', mimetype)
     else:
         return HttpResponse(status=400)

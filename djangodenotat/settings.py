@@ -143,7 +143,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'djangodenotat.languages'
+    'djangodenotat.languages',
+    'djangodenotat.denotat',
 )
 
 

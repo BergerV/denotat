@@ -12,6 +12,7 @@ urlpatterns = patterns(
     '',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^', include('djangodenotat.languages.urls')),
+    url(r'^', include('djangodenotat.denotat.urls')),
 )
 
 #if settings.DEBUG:

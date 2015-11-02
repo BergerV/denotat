@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from django.db import models
+from djangodenotat.languages.models import Ngramm
 
 ORIENTATION_CHOICES = (
     ('10', '<--'),
@@ -10,7 +11,7 @@ ORIENTATION_CHOICES = (
 )
 
 class Text(models.Model):
-    title = models.CharField(verbose_name=u'название')
+    title = models.CharField(max_length=255, verbose_name=u'название')
     
     def __unicode__(self):
         return self.title
@@ -20,20 +21,8 @@ class Text(models.Model):
         verbose_name_plural = u'тексты'
 
 
-class Ngramm(models.Model):
-    n_gramm = models.CharField(db_index=True, verbose_name=u'N-грамма')
-    text = models.ManyToManyField(Text, verbose_name=u'Текст')
-    
-    def __unicode__(self):
-        return self.n_gramm
-    
-    class Meta:
-        verbose_name = u'n-грамма'
-        verbose_name_plural = u'n-граммы'
-
-
 class Word(models.Model):
-    word = models.CharField(db_index=True, verbose_name=u'Слово')
+    word = models.CharField(max_length=255, db_index=True, verbose_name=u'Слово')
     probability = models.FloatField(default=0.0, verbose_name=u'Вероятность слова в тексте')
     n_gramm = models.ManyToManyField(Ngramm, verbose_name=u'N-грамма')
     
@@ -66,23 +55,10 @@ class Triangle(models.Model):
 
 class Relation(models.Model):
     orientation = models.CharField(max_length=2, choices=ORIENTATION_CHOICES, verbose_name=u'Направление связи')
-    significant1 = models.ForeignKey(Significant, verbose_name=u'Первый сигнификат')
-    significant2 = models.ForeignKey(Significant, verbose_name=u'Второй сигнификат')
+    significant1 = models.ForeignKey(Significant, related_name='significant1', verbose_name=u'Первый сигнификат')
+    significant2 = models.ForeignKey(Significant, related_name='significant2', verbose_name=u'Второй сигнификат')
     weight = models.FloatField(default=0.0, verbose_name=u'Вес')
     
     class Meta:
         verbose_name = u'отношение'
         verbose_name_plural = u'отношения'
-        
-        
-def create_table(cls):
-    from django.db import connection
-    from django.core.management.color import no_style
-    
-    sql, references = connection.creation.sql_create_model(cls, no_style())
-    cursor = connection.cursor()
-    for q in sql:
-        try:
-            cursor.execute(q)
-        except:
-            pass

@@ -19,7 +19,7 @@ angular.module('denotatApp', [
         fd.append('test', $scope.article);
         $http({
             method : 'POST',
-            url: '',
+            url: '/essay',
             data: fd,
             headers: {'Content-Type': undefined}
         })
