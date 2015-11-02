@@ -7,10 +7,10 @@ from djangodenotat.test import morph_analyze
 
 @csrf_protect
 def essay(request):
-    if request.is_ajax():
+    if request.method == 'POST':
         mimetype = 'application/javascript'
         postfiles = request.FILES
-        article = postfiles['article']
+        article = postfiles.get('article', False)
 
        # graph = analyze(article)
 

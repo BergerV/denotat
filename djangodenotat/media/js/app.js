@@ -4,6 +4,10 @@ angular.module('denotatApp', [
     'ui.bootstrap',                 // Ui Bootstrap
     'bootstrap.fileField'
 ])
+.config(function ($httpProvider) {
+    $httpProvider.defaults.xsrfCookieName = 'csrftoken';
+    $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
+})
 
 .controller('translationCtrl', function($scope, $rootScope, $http) {
     $scope.limit = 100*1024*1024;
@@ -16,10 +20,10 @@ angular.module('denotatApp', [
 
     $scope.translate = function() {
         var fd = new FormData();
-        fd.append('test', $scope.article);
+        fd.append('article', $scope.article);
         $http({
             method : 'POST',
-            url: '/essay',
+            url: '/essay/',
             data: fd,
             headers: {'Content-Type': undefined}
         })
