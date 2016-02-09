@@ -3,14 +3,13 @@ from djangodenotat.languages.models import *
 from djangodenotat.test.text_parser import split_into_ngramm, split_by_words_and_punctuation
 from collections import defaultdict
 from django.conf import settings
-import json
 import codecs
 from djangodenotat.languages.views.translation import *
 from math import *
 
 
 @csrf_protect
-def evaluation(request):   #bleu metric
+def evaluation(request):   # bleu metric
     if request.is_ajax():
         mimetype = 'application/javascript'
         postdata = request.POST
@@ -105,7 +104,7 @@ def normalize(table):
 
 
 @csrf_protect
-def load2(request):   #составление списка n-грамм     
+def load2(request):   # составление списка n-грамм
     if request.is_ajax():
         mimetype = 'application/javascript'
         postdata = request.POST
@@ -115,7 +114,7 @@ def load2(request):   #составление списка n-грамм
         langin = Language.objects.get(id=postdata['langin'])
         langout = Language.objects.get(id=postdata['langout'])
 
-        #магия с обработкой параллельных текстов ---- НАЧАЛО   
+        # магия с обработкой параллельных текстов ---- НАЧАЛО
         print 'START', datetime.datetime.now()
         table = defaultdict(lambda: defaultdict(float))  
         otable = defaultdict(float)
@@ -136,7 +135,7 @@ def load2(request):   #составление списка n-грамм
             for tw in t: 
                 if tw not in u_t:                     
                     u_t.append(tw)
-        text_unique = [u_o, u_t]             #список уникальных n-грамм
+        text_unique = [u_o, u_t]             # список уникальных n-грамм
 
         print 'CALCULATING N-GRAMM FREQUENCE', datetime.datetime.now()
         for o in text_unique[0]:
@@ -193,7 +192,7 @@ def load2(request):   #составление списка n-грамм
         # магия с обработкой параллельных текстов ---- КОНЕЦ
         print 'END', datetime.datetime.now()
         
-        return HttpResponse('',mimetype)
+        return HttpResponse('', mimetype)
     else:
         return HttpResponse(status=400)
 

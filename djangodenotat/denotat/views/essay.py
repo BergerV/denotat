@@ -12,11 +12,9 @@ def essay(request):
         postfiles = request.FILES
         article = postfiles.get('article', False)
 
-       # graph = analyze(article)
+        graph = analyze(article)
 
-        result = 'result'
-
-        js = {"result": result}
+        js = {"result": graph}
         data = json.dumps(js)
         return HttpResponse(data, mimetype)
     else:
@@ -55,4 +53,5 @@ def make_graphiz(graph):
 
 def analyze(text):
     graph = morph_analyze.analyze2(text)
-    make_graphiz(graph)
+    return graph
+    # make_graphiz(graph)

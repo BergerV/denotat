@@ -13,6 +13,7 @@ angular.module('denotatApp', [
     $scope.limit = 100*1024*1024;
     $scope.error = '';
     $scope.article = null;
+    $scope.result = {};
 
     $scope.isLoad = function () {
         return $scope.article === null;
