@@ -34,14 +34,14 @@
         <div class="jumbotron" ng-controller="translationCtrl">
             <form>{% csrf_token %}
                 <h2>Реферативный переводчик</h2>
-                <p class="lead"><file-field class="link" ng-model="article" limit="limit" error="error">Загрузите</file-field> текст англоязычной статьи для получения реферата на русском языке</p>
-                <p>{{ article.size }}</p>
+                <p class="lead"><file-field class="link" ng-model="article" limit="limit" error="error">Загрузите</file-field> текст рускоязычной статьи для получения реферата на английском языке</p>
+                <p>Размер загруженной статьи: {$ article.size |bytes:2 $}</p>
                 <button ng-click="translate()" class="btn btn-success" ng-disabled="isLoad()">Получить реферат</button>
             </form>
         </div>
         <div class="row clearfix"></div>
         <div class="row">
-            {{ result.result }}
+            {$ result.result $}
         </div>
 
     {% endblock %}

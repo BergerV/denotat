@@ -4,11 +4,24 @@ angular.module('denotatApp', [
     'ui.bootstrap',                 // Ui Bootstrap
     'bootstrap.fileField'
 ])
-.config(function ($httpProvider) {
+.config(function ($httpProvider, $interpolateProvider) {
+    $interpolateProvider.startSymbol('{$');
+    $interpolateProvider.endSymbol('$}');
+
     $httpProvider.defaults.xsrfCookieName = 'csrftoken';
     $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
 })
-
+.filter('bytes', function () {
+    return function (bytes, precision) {
+        units = ['·‡ÈÚ', 'Í¡', 'Ã¡', '√¡', '“¡', 'œ¡'];
+        if (bytes === 0) return 0 + ' ' + units[0];
+        if (isNaN(parseFloat(bytes)) || !isFinite(bytes)) return '-';
+        if (typeof precision === 'undefined') precision = 1;
+        var units;
+        var number = Math.floor(Math.log(bytes) / Math.log(1000));
+        return (bytes / Math.pow(1000, Math.floor(number))).toFixed(precision) + ' ' + units[number];
+    }
+})
 .controller('translationCtrl', function($scope, $rootScope, $http) {
     $scope.limit = 100*1024*1024;
     $scope.error = '';
