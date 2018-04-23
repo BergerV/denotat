@@ -10,16 +10,6 @@ ORIENTATION_CHOICES = (
     ('11', '<->'),
 )
 
-class Text(models.Model):
-    title = models.CharField(max_length=255, verbose_name=u'название')
-    
-    def __unicode__(self):
-        return self.title
-    
-    class Meta:
-        verbose_name = u'текст'
-        verbose_name_plural = u'тексты'
-
 
 class Word(models.Model):
     word = models.CharField(max_length=255, db_index=True, verbose_name=u'Слово')

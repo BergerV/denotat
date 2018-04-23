@@ -27,8 +27,18 @@ ALLOWED_HOSTS = []
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'dict'                      # Or path to database file if using sqlite3. dict3/4
+        #'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        #'NAME': 'dict'                      # Or path to database file if using sqlite3. dict3/4,
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'dict',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'mysql',
+        'PORT': 3306,
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+            "init_command": "SET foreign_key_checks = 0;",
+        }
     }
 }
 
@@ -40,7 +50,8 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'Asia/Yekaterinburg'
+TIME_ZONE = 'Europe/Moscow'
+USE_TZ = True
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html

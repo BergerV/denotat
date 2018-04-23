@@ -7,6 +7,7 @@ import re
 
 morph = pymorphy2.MorphAnalyzer()
 
+
 def split_into_ngramm(sentence, ngramm):
     try:
         tmp = unicode(sentence.strip(), "utf-8")
@@ -34,9 +35,9 @@ def encode_phrase(phrase):
 
 
 def split_by_sentences(text):
-    sentenceEnders = re.compile(r'''[.!?]['"]?\s{1,2}(?=[A-Z])''', re.UNICODE)
-    sentenceList = sentenceEnders.split(text)
-    return sentenceList
+    sentence_enders = re.compile(r'''[.!?]['"]?\s{1,2}(?=[A-Z])''', re.UNICODE)
+    sentence_list = sentence_enders.split(text)
+    return sentence_list
 
 
 def nltk_split_by_sentences(text):
@@ -61,7 +62,7 @@ def split_n_gramm(text):
     return text.split()
 
 
-#замена кавычек на токен <QUOTE>
+# замена кавычек на токен <QUOTE>
 def replace_all_quotes(text):
     res = []
     for s in text:
@@ -80,7 +81,7 @@ def make_final_string(text):
     return re.sub(r'''([\(\[\{])\s+''', r'\1', tmp)
 
 
-#замена чисел на токен <NUM>
+# замена чисел на токен <NUM>
 def replace_numbers(text):
     res = []
     for s in text:
@@ -88,14 +89,15 @@ def replace_numbers(text):
         res.append(s)
     return res
 
-#получения текста как списка токенов
+
+# получения текста как списка токенов
 def nltk_parse_to_tokens(paragraph):
     tokens = []
-    #параграфы на предложения
+    # параграфы на предложения
     pst = nltk.tokenize.PunktSentenceTokenizer()
     sentences = pst.sentences_from_text(paragraph.lower())
     for sentence in sentences:
-        #предложения на слова
+        # предложения на слова
         tokens += nltk.tokenize.WordPunctTokenizer().tokenize(sentence)
     return tokens
 
@@ -111,6 +113,7 @@ def sentence_normal_form(sentence):
             normal_words.append(word)
     return normal_words
 
+
 def sentence_normal_form_extra(sentence):
     normal_words1 = []
     normal_words2 = []
@@ -120,7 +123,7 @@ def sentence_normal_form_extra(sentence):
         res = {}
         for variant in variants:
             res.update({variant.tag.POS:variant})
-        for form in ['NOUN','VERB','PRTS','PRCL','PREP']:
+        for form in ['NOUN', 'VERB', 'PRTS', 'PRCL', 'PREP']:
             try:
                 x = res[form]
             except KeyError, e:
@@ -128,11 +131,12 @@ def sentence_normal_form_extra(sentence):
             finally:
                 normal_words1.append(x)
         normal_words2.append(variants[0])
-        print ">>>>>",len(normal_words1)
-        print "<<<<<",len(normal_words2)
+        print ">>>>>", len(normal_words1)
+        print "<<<<<", len(normal_words2)
     return normal_words1
 
-#граф в расширенную форму
+
+# граф в расширенную форму
 def graph_to_extra_form(graph):
     for s in graph:
         s['parent'] = morph.parse(s['parent'])[0]
@@ -140,7 +144,8 @@ def graph_to_extra_form(graph):
         s['child'] = morph.parse(s['child'])[0]
     return graph
 
-#получения текста как списка токенов в нормальной форме
+
+# получения текста как списка токенов в нормальной форме
 def get_normal_form(text):
     sentences = split_by_sentences(text)
     words = []

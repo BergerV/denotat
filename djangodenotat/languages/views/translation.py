@@ -17,8 +17,7 @@ from random import randint
 
 def index(request, template_name="index.html"):
     languages = Language.objects.all()
-    return render_to_response(template_name, locals(), 
-        context_instance=RequestContext(request))
+    return render_to_response(template_name, locals(), context_instance=RequestContext(request))
 
 
 @csrf_protect
@@ -47,13 +46,13 @@ def trans(request):
 def language_model(word, seq, lang, size):
     phrase = make_string([seq, word])        
     try:
-        phrase_freq = Ngramm.objects.get(n_gramm=phrase, lang=lang).frequence
+        phrase_freq = Ngramm.objects.get(n_gramm=phrase, lang=lang).frequency
     except:
         phrase_freq = 0        
                 
     # print seq
     try:
-        seq_freq = Ngramm.objects.filter(n_gramm__istartswith=seq, lang=lang, n=size).aggregate(Sum('frequence'))
+        seq_freq = Ngramm.objects.filter(n_gramm__istartswith=seq, lang=lang, n=size).aggregate(Sum('frequency'))
     except:    
         seq_freq = 0            
     # seq_freq = Ngramm.objects.get(n_gramm = seq, lang = lang)
@@ -189,7 +188,7 @@ def try_to_translate(ngramm, langin, langout, change):
             t = time.time() - t 
             # print 'FINISH TRANS-TRY', trans, t
             cursor.close()
-            return {'orig':ngramm, 'trans':trans} 
+            return {'orig': ngramm, 'trans': trans}
         except:               
             # print 'FINISH LOSE'
             cursor.close()
@@ -222,7 +221,7 @@ def get_all_joins(text):
             for per in permutations(text[i:i+j+1]):
                 ngramm_tmp = ' '.join(per)
                 res_text = text[0:i] + [ngramm_tmp] + text[i+j+1:len(text)] 
-                res.add(res_text)                        
+                res.append(res_text)
     return res    
 
 
@@ -253,7 +252,7 @@ def SWAP(orig, trans, langin, langout, change, un):
                 break        
         i += 1                
 
-    return {'orig': orig, 'trans': trans, 'un':un}        
+    return {'orig': orig, 'trans': trans, 'un': un}
 
 
 def SWAP_P(orig, trans, langin, langout, change, pp):

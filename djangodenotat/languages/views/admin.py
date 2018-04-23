@@ -139,9 +139,9 @@ def load2(request):   # составление списка n-грамм
 
         print 'CALCULATING N-GRAMM FREQUENCE', datetime.datetime.now()
         for o in text_unique[0]:
-            otable[ow] = 0
+            otable[o] = 0
         for t in text_unique[1]:
-            ttable[ow] = 0
+            ttable[t] = 0
                   
         for (o, t) in bitext(orig, trans):
             for ow in o: 
@@ -216,6 +216,10 @@ def load(request):
         text = bitext(orig, trans)
         len_o = len_text(orig)                
         len_t = len_text(trans)
+        file = Text(title=orig.name, lang=langin, words_count=len_o)
+        file.save()
+        file = Text(title=trans.name, lang=langout, words_count=len_t)
+        file.save()
         print len_o, len_t    
         
         print 'MAKING LIST OF UNIQUE N-GRAMMS', datetime.datetime.now()
@@ -233,15 +237,15 @@ def load(request):
 
         print 'CALCULATING N-GRAMM FREQUENCE', datetime.datetime.now()
         for o in text_unique[0]:
-            otable[ow] = 0
+            otable[o] = 0
         for t in text_unique[1]:
-            ttable[ow] = 0
+            ttable[t] = 0
                   
         for (o, t) in bitext(orig, trans):
             for ow in o: 
-                otable[ow] += float(1)/len_o
+                otable[ow] += 1# float(1)/len_o
             for tw in t: 
-                ttable[tw] += float(1)/len_t
+                ttable[tw] += 1# float(1)/len_t
                 
         print 'WRITE N-GRAMMS IN FILE', datetime.datetime.now()
 
@@ -251,35 +255,35 @@ def load(request):
         f = codecs.open(filename, "w", "utf-8")                
         print 'OPEN FILE'
         for o in text_unique[0]:
-            f.write('"%s",%s,%s,%.10f\n' % (o.replace('"', "'"), len(split_n_gramm(o)), langin.id, otable[o]))            
+            f.write('"%s",%s,%s,%s,%.10f\n' % (o.replace('"', "'"), len(split_n_gramm(o)), langin.id, otable[o], otable[o]/len_o))
             i += 1
                         
             if i >= 900:
                 i = 0
                 f.close()
-                cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, frequence) FROM \'%s\' DELIMITERS \',\' CSV' % filename)               
+                cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, count, frequency) FROM \'%s\' DELIMITERS \',\' CSV' % filename)
                 transaction.commit_unless_managed()                
                 f = codecs.open(filename, "w", "utf-8") 
 
         f.close()                        
-        cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, frequence) FROM \'%s\' DELIMITERS \',\' CSV' % filename)               
+        cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, count, frequency) FROM \'%s\' DELIMITERS \',\' CSV' % filename)
         transaction.commit_unless_managed()
                     
         i = 0      
         f = codecs.open(filename, "w", "utf-8")                
         for t in text_unique[1]:
-            f.write('"%s",%s,%s,%.10f\n' % (t.replace('"', "'"), len(split_n_gramm(t)), langout.id, ttable[t]))                
+            f.write('"%s",%s,%s,%s,%.10f\n' % (t.replace('"', "'"), len(split_n_gramm(t)), langout.id, ttable[t], ttable[t]/len_t))
             i += 1
                         
             if i >= 900:
                 i = 0
                 f.close()
-                cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, frequence) FROM \'%s\' DELIMITERS \',\' CSV' % filename)               
+                cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, count, frequency) FROM \'%s\' DELIMITERS \',\' CSV' % filename)
                 transaction.commit_unless_managed()
                 f = codecs.open(filename, "w", "utf-8") 
                         
         f.close()
-        cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, frequence) FROM \'%s\' DELIMITERS \',\' CSV' % filename)               
+        cursor.execute('COPY languages_ngramm (n_gramm, n, lang_id, count, frequency) FROM \'%s\' DELIMITERS \',\' CSV' % filename)
         transaction.commit_unless_managed()
         cursor.close()
         
