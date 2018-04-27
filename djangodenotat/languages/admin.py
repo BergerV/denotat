@@ -10,6 +10,12 @@ class LangAdmin(admin.ModelAdmin):
     search_fields = ['name']
 
 
+class TextAdmin(admin.ModelAdmin):
+    list_display = ['id', 'title', 'words_count', 'lang']
+    list_display_links = ['id']
+    search_fields = ['title', 'lang']
+
+
 class NgrammAdmin(admin.ModelAdmin):
     list_display = ['n', 'n_gramm', 'lang', 'frequency']
     list_display_links = ['n_gramm']   
@@ -22,6 +28,7 @@ class TransAdmin(admin.ModelAdmin):
     search_fields = ['orig', 'trans', 'lang_orig__name', 'lang_trans__name', 'probability']
 
 
+admin.site.register(Text, TextAdmin)
 admin.site.register(Language, LangAdmin)
 admin.site.register(Ngramm, NgrammAdmin)
 admin.site.register(Translation, TransAdmin)

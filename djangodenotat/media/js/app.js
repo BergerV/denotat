@@ -13,7 +13,7 @@ angular.module('denotatApp', [
 })
 .filter('bytes', function () {
     return function (bytes, precision) {
-        units = ['·‡ÈÚ', 'Í¡', 'Ã¡', '√¡', '“¡', 'œ¡'];
+        units = ['·‡ÈÚ', ' ·', 'Ã·', '√·', '“·', 'œ·'];
         if (bytes === 0) return 0 + ' ' + units[0];
         if (isNaN(parseFloat(bytes)) || !isFinite(bytes)) return '-';
         if (typeof precision === 'undefined') precision = 1;

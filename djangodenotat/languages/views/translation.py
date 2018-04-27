@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.template import RequestContext
 from djangodenotat.languages.models import *
 from djangodenotat.test.text_parser import make_string, split_by_sentences, make_final_string, split_n_gramm, encode_phrase
 import json
