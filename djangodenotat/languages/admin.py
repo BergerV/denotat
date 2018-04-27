@@ -11,7 +11,7 @@ class LangAdmin(admin.ModelAdmin):
 
 
 class NgrammAdmin(admin.ModelAdmin):
-    list_display = ['n', 'n_gramm', 'lang', 'frequence']
+    list_display = ['n', 'n_gramm', 'lang', 'frequency']
     list_display_links = ['n_gramm']   
     search_fields = ['n_gramm', 'lang__name']
 
@@ -20,6 +20,7 @@ class TransAdmin(admin.ModelAdmin):
     list_display = ['id', 'orig', 'lang_orig', 'trans', 'lang_trans', 'probability']
     list_display_links = ['id']   
     search_fields = ['orig', 'trans', 'lang_orig__name', 'lang_trans__name', 'probability']
+
 
 admin.site.register(Language, LangAdmin)
 admin.site.register(Ngramm, NgrammAdmin)

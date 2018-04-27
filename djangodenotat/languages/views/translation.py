@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from django.shortcuts import render_to_response
+from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext
 from djangodenotat.languages.models import *
@@ -17,7 +17,7 @@ from random import randint
 
 def index(request, template_name="index.html"):
     languages = Language.objects.all()
-    return render_to_response(template_name, locals(), context_instance=RequestContext(request))
+    return render(request, template_name, locals())
 
 
 @csrf_protect
